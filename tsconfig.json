@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "declaration": true,
+        "target": "es2016",     // tsc --init has this by default, remove when recommended upgrades
+        "outDir": "dist",
+    },
+    "include": ["src/**/*.ts"]
+}
